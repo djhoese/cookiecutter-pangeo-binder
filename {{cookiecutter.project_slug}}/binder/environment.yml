@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
+  - pip
   - xarray
   - dask
   - distributed
@@ -15,14 +16,15 @@ dependencies:
   - python-blosc
   - lz4
   - nomkl
-  - nbserverproxy
+  - jupyter-server-proxy
   - jupyter
-  - jupyterlab=0.35
+  - jupyterlab
   - jupyterlab_launcher
   - jupyter_client
   - ipywidgets
   - graphviz
   - nodejs
+  - dask-labextension
   - pip:
     - kubernetes
     - graphviz
